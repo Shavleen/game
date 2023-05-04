@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*added to make the board and game more visually appealing*/
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board-row {
+  display: flex;
+}
+
+/*make the squares bigger and look nice*/
+.square {
+  font-size: 36px;
+  width: 60px;
+  height: 60px;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #999;
+  cursor: pointer;
+}
+
+/*Color when you hover mouse over square*/
+.square:hover {
+  background-color: #dee4f1;
+}
